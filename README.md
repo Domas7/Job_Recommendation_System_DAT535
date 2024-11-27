@@ -5,7 +5,7 @@ This project implements a job recommendation system using a job description data
 ## Project Structure
 
 - **Initial_preprocessing_using_pandas.py**: Initial data preprocessing using Pandas.
-- **Preprocessing_Data.ipynb**: Jupyter Notebook for data cleaning and transformation.
+- **Preprocessing_Data.ipynb**: Main Jupyter Notebook With Proper Spark Operation For Data Cleaning.
 - **Processing_Data_Only_Spark.py**: Data processing using Spark-only operations.
 - **initial_batching_using_pandas.ipynb**: Batching implementation with Pandas.
 - **limiting_records_helper_function.py**: Helper functions for record management.
@@ -30,13 +30,3 @@ The project processes job description data through the Medallion Architecture:
 ## Development Process
 
 The project began with data processing using familiar libraries like Pandas. It was then reworked to utilize Spark-only operations, enhancing scalability and efficiency for large datasets.
-
-## Getting Started
-
-1. Clone the repository.
-2. Set up your Spark environment.
-3. Follow the notebooks and scripts to process and analyze the job description data.
-
-## Acknowledgments
-
-- Dataset sourced from [Kaggle](https://www.kaggle.com/).
